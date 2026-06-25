@@ -4,7 +4,7 @@ const fallbackGames = [
     status: "Alpha v0.4",
     genre: "Racing Management",
     description: "Run a tiny racing team from a broke garage to championship glory.",
-    cover: "./assets/race-desk-cover.png",
+    cover: "assets/race-desk-cover.png",
     itchUrl: "https://lordzeroi.itch.io/race-desk-manager",
     devlogUrl: "https://lordzeroi.itch.io/race-desk-manager/devlog",
     tags: ["HTML5", "Browser", "Management", "Racing"],
@@ -25,9 +25,18 @@ const fallbackGames = [
 const gamesGrid = document.querySelector("#games-grid");
 
 document.querySelectorAll("[data-cover-image]").forEach((image) => {
+  if (image.complete && image.naturalWidth > 0) {
+    image.classList.add("is-loaded");
+  }
+
   image.addEventListener("error", () => {
     image.classList.add("is-missing");
-    image.setAttribute("aria-hidden", "true");
+    image.removeAttribute("alt");
+  });
+
+  image.addEventListener("load", () => {
+    image.classList.add("is-loaded");
+    image.classList.remove("is-missing");
   });
 });
 
