@@ -34,6 +34,7 @@ Edit `games.json`. For example:
   "status": "Alpha v0.4",
   "genre": "Racing Management",
   "description": "Run a tiny racing team from a broke garage to championship glory.",
+  "cover": "./assets/race-desk-cover.png",
   "itchUrl": "https://lordzeroi.itch.io/race-desk-manager",
   "devlogUrl": "https://lordzeroi.itch.io/race-desk-manager/devlog",
   "tags": ["HTML5", "Browser", "Management", "Racing"],
