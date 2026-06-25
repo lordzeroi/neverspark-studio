@@ -10,10 +10,12 @@ Static v1 website for Neverspark Studio / LordZeroi games.
 - `games.json` - edit this when adding or updating games
 - `assets/race-desk-cover.png` - local Race Desk cover visual
 
+Keep the `assets` folder in the repository. GitHub tracks the PNG inside it, so the folder will be recognized as long as `assets/race-desk-cover.png` is uploaded with the rest of the site.
+
 ## Hosting on GitHub Pages
 
 1. Create a GitHub repository named `lordzeroi.github.io`.
-2. Upload the files from this folder to the repository root.
+2. Upload the files from this folder to the repository root, including the `assets` folder.
 3. Open the repository settings.
 4. Go to Pages.
 5. Set the source to the main branch.
