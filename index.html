@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Neverspark Studio - small browser games by LordZeroi.">
+    <title>Neverspark Studio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Neverspark Studio home">
+        <span class="brand-mark" aria-hidden="true">NS</span>
+        <span>
+          <strong>Neverspark Studio</strong>
+          <small>Small browser games by LordZeroi.</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#updates">Updates</a>
+        <a href="#links">Links</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Featured game</p>
+          <h1 id="hero-title">Race Desk Manager</h1>
+          <p class="hero-pitch">Run a tiny racing team from a broke garage to championship glory.</p>
+          <div class="hero-actions" aria-label="Race Desk Manager links">
+            <a class="button primary" href="https://lordzeroi.itch.io/race-desk-manager">Play on itch.io</a>
+            <a class="button secondary" href="https://lordzeroi.itch.io/race-desk-manager/devlog">View Devlog</a>
+          </div>
+        </div>
+
+        <article class="game-window" aria-label="Race Desk Manager featured panel">
+          <div class="window-bar">
+            <span class="window-dot red" aria-hidden="true"></span>
+            <span class="window-dot yellow" aria-hidden="true"></span>
+            <span class="window-dot green" aria-hidden="true"></span>
+            <span class="window-title">Race Desk Manager.exe</span>
+          </div>
+          <div class="window-body">
+            <div class="cover-frame">
+              <img src="assets/race-desk-cover.png" alt="Race Desk Manager cover art">
+            </div>
+            <div class="window-details">
+              <div class="meta-row">
+                <span class="status-badge">Alpha v0.4</span>
+                <span class="genre">Racing Management</span>
+              </div>
+              <h2>Build the garage. Chase the grid.</h2>
+              <p>Buy bargain cars, survive repairs and debt, chase sponsors, race through seasons, and build your garage into a championship team.</p>
+              <ul class="feature-list">
+                <li>Team budget pressure</li>
+                <li>Garage upgrades and repairs</li>
+                <li>Season racing progression</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section band" id="games" aria-labelledby="games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Catalogue</p>
+          <h2 id="games-title">Games</h2>
+        </div>
+        <div class="games-grid" id="games-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section split" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Neverspark Studio</h2>
+        </div>
+        <p>Neverspark Studio is the small-game home for LordZeroi: compact browser games, management ideas, and projects that can live comfortably on itch.io while still having a clean public shelf.</p>
+      </section>
+
+      <section class="section split" id="updates" aria-labelledby="updates-title">
+        <div>
+          <p class="eyebrow">Updates</p>
+          <h2 id="updates-title">Devlog</h2>
+        </div>
+        <p>Race Desk Manager updates live on itch.io for now. Patch notes can be added here later if the site needs its own update archive.</p>
+      </section>
+
+      <section class="section links-band" id="links" aria-labelledby="links-title">
+        <div class="section-heading">
+          <p class="eyebrow">Links</p>
+          <h2 id="links-title">Follow LordZeroi</h2>
+        </div>
+        <div class="link-row">
+          <a class="button primary" href="https://lordzeroi.itch.io">itch.io Profile</a>
+          <a class="button secondary" href="https://lordzeroi.itch.io/race-desk-manager">Race Desk Manager</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Neverspark Studio</span>
+      <span>Small browser games by LordZeroi.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

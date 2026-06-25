@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Race Desk Manager",
+    "status": "Alpha v0.4",
+    "genre": "Racing Management",
+    "description": "Run a tiny racing team from a broke garage to championship glory.",
+    "itchUrl": "https://lordzeroi.itch.io/race-desk-manager",
+    "devlogUrl": "https://lordzeroi.itch.io/race-desk-manager/devlog",
+    "tags": ["HTML5", "Browser", "Management", "Racing"],
+    "group": "Featured"
+  },
+  {
+    "title": "Dungeon Manager",
+    "status": "Coming later",
+    "genre": "Management",
+    "description": "In development. This one can stay quiet until there is a public build.",
+    "itchUrl": "",
+    "devlogUrl": "",
+    "tags": ["In Development"],
+    "group": "In Development"
+  }
+]
