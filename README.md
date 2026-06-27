@@ -8,9 +8,10 @@ Static v1 website for Neverspark Studio / LordZeroi games.
 - `styles.css` - visual design
 - `script.js` - loads and renders the games list
 - `games.json` - edit this when adding or updating games
+- `assets/dungeon-manager-cover.png` - local Dungeon Manager cover visual
 - `assets/race-desk-cover.png` - local Race Desk cover visual
 
-Keep the `assets` folder in the repository. GitHub tracks the PNG inside it, so the folder will be recognized as long as `assets/race-desk-cover.png` is uploaded with the rest of the site.
+Keep the `assets` folder in the repository. GitHub tracks the PNG files inside it, so the folder will be recognized as long as the cover images are uploaded with the rest of the site.
 
 ## Hosting on GitHub Pages
 
@@ -32,16 +33,15 @@ Edit `games.json`. For example:
 
 ```json
 {
-  "title": "Race Desk Manager",
-  "status": "Alpha v0.4",
-  "genre": "Racing Management",
-  "description": "Run a tiny racing team from a broke garage to championship glory.",
-  "cover": "assets/race-desk-cover.png",
-  "itchEmbed": "https://itch.io/embed/4594171?border_width=5&border_color=ff0808",
-  "playEmbed": "https://itch.io/embed-upload/18041055?color=333333",
-  "itchUrl": "https://lordzeroi.itch.io/race-desk-manager",
-  "devlogUrl": "https://lordzeroi.itch.io/race-desk-manager/devlog",
-  "tags": ["HTML5", "Browser", "Management", "Racing"],
+  "title": "Dungeon Manager: Lord of the Underkeep",
+  "status": "Itch page live",
+  "genre": "Dungeon Management",
+  "description": "Build the underkeep, manage danger, and grow a dungeon worth fearing.",
+  "cover": "assets/dungeon-manager-cover.png",
+  "itchEmbed": "https://itch.io/embed/4721140?linkback=true&border_width=5&border_color=fe1818",
+  "itchUrl": "https://lordzeroi.itch.io/dungeon-manager-lord-of-the-underkeep",
+  "devlogUrl": "",
+  "tags": ["In Development", "Management", "Dungeon"],
   "group": "Featured"
 }
 ```

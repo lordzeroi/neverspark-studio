@@ -1,5 +1,17 @@
 const fallbackGames = [
   {
+    title: "Dungeon Manager: Lord of the Underkeep",
+    status: "Itch page live",
+    genre: "Dungeon Management",
+    description: "Build the underkeep, manage danger, and grow a dungeon worth fearing.",
+    cover: "assets/dungeon-manager-cover.png",
+    itchEmbed: "https://itch.io/embed/4721140?linkback=true&border_width=5&border_color=fe1818",
+    itchUrl: "https://lordzeroi.itch.io/dungeon-manager-lord-of-the-underkeep",
+    devlogUrl: "",
+    tags: ["In Development", "Management", "Dungeon"],
+    group: "Featured"
+  },
+  {
     title: "Race Desk Manager",
     status: "Alpha v0.4",
     genre: "Racing Management",
@@ -8,17 +20,7 @@ const fallbackGames = [
     itchUrl: "https://lordzeroi.itch.io/race-desk-manager",
     devlogUrl: "https://lordzeroi.itch.io/race-desk-manager/devlog",
     tags: ["HTML5", "Browser", "Management", "Racing"],
-    group: "Featured"
-  },
-  {
-    title: "Dungeon Manager",
-    status: "Coming later",
-    genre: "Management",
-    description: "In development. This one can stay quiet until there is a public build.",
-    itchUrl: "",
-    devlogUrl: "",
-    tags: ["In Development"],
-    group: "In Development"
+    group: "Available"
   }
 ];
 
